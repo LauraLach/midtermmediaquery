@@ -132,10 +132,7 @@ details details:hover {
 .extraTopPadding {
   padding-top: 20px;
 }
-@media screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+@media screen and (max-device-width: 812px) {
     p {
       font-size: 30px;
     }
