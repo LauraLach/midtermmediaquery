@@ -145,7 +145,7 @@ details details:hover {
     }
     img {
       display: block;
-      margin: 20px auto;
+      margin: 20px auto 40px auto;
     }
     .menu {
       width: 100%;
@@ -160,7 +160,7 @@ details details:hover {
       font-size: 30px;
     }
     .contentLine {
-      display: block;
+      display: flex;
       justify-content: center;
       padding: 10px 0px;
     }
@@ -169,11 +169,19 @@ details details:hover {
       justify-content: center;
     }
     .history {
-      display: block;
-      justify-content: center;
       padding: 0% 15%;
     }
     .history img {
+      display: block;
       height: 400px;
     }
+    .rev {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .norm {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
