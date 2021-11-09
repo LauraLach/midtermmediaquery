@@ -132,7 +132,7 @@ details details:hover {
 .extraTopPadding {
   padding-top: 20px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 980px) {
   p {
     font-size: 30px;
   }
@@ -142,6 +142,10 @@ details details:hover {
   }
   h2 {
     font-size: 50px;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
   }
   .menu {
     width: 100%;
@@ -168,5 +172,8 @@ details details:hover {
     display: block;
     justify-content: center;
     padding: 0% 15%;
+  }
+  .history img {
+    height: 400px;
   }
 }
