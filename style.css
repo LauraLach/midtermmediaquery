@@ -157,7 +157,7 @@ details details:hover {
   }
   .contentLine {
     display: block;
-    justify-content: column;
+    justify-content: center;
     padding: 10px 0px;
   }
   .contentLeft {
@@ -166,7 +166,7 @@ details details:hover {
   }
   .history {
     display: block;
-    justify-content: column;
+    justify-content: center;
     padding: 0% 15%;
   }
 }
