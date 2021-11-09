@@ -132,48 +132,51 @@ details details:hover {
 .extraTopPadding {
   padding-top: 20px;
 }
-@media screen and (max-width: 980px) {
-  p {
-    font-size: 30px;
-  }
-  h1 {
-    padding: 50px 0px;
-    font-size: 60px;
-  }
-  h2 {
-    font-size: 50px;
-  }
-  img {
-    display: block;
-    margin: 20px auto;
-  }
-  .menu {
-    width: 100%;
-    height: 60px;
-    background-color: #DCDCDC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 4px solid #28AFB0;
-  }
-  .menu p {
-    font-size: 30px;
-  }
-  .contentLine {
-    display: block;
-    justify-content: center;
-    padding: 10px 0px;
-  }
-  .contentLeft {
-    display: flex;
-    justify-content: center;
-  }
-  .history {
-    display: block;
-    justify-content: center;
-    padding: 0% 15%;
-  }
-  .history img {
-    height: 400px;
-  }
+@media screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    p {
+      font-size: 30px;
+    }
+    h1 {
+      padding: 50px 0px;
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+    }
+    .menu {
+      width: 100%;
+      height: 60px;
+      background-color: #DCDCDC;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 4px solid #28AFB0;
+    }
+    .menu p {
+      font-size: 30px;
+    }
+    .contentLine {
+      display: block;
+      justify-content: center;
+      padding: 10px 0px;
+    }
+    .contentLeft {
+      display: flex;
+      justify-content: center;
+    }
+    .history {
+      display: block;
+      justify-content: center;
+      padding: 0% 15%;
+    }
+    .history img {
+      height: 400px;
+    }
 }
