@@ -56,7 +56,6 @@ details details:hover {
   align-items: center;
   justify-content: flex-end;
   border-bottom: 4px solid #28AFB0;
-  position: static;
 }
 .menu p {
   padding-right: 20px;
@@ -132,4 +131,42 @@ details details:hover {
 }
 .extraTopPadding {
   padding-top: 20px;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 30px;
+  }
+  h1 {
+    padding: 50px 0px;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .menu {
+    width: 100%;
+    height: 60px;
+    background-color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid #28AFB0;
+  }
+  .menu p {
+    font-size: 30px;
+  }
+  .contentLine {
+    display: block;
+    justify-content: column;
+    padding: 10px 0px;
+  }
+  .contentLeft {
+    display: flex;
+    justify-content: center;
+  }
+  .history {
+    display: block;
+    justify-content: column;
+    padding: 0% 15%;
+  }
 }
