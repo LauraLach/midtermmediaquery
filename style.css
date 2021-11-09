@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #DCDCDC;
+  font-family: 'Raleway', sans-serif;
+  line-height: 35px;
+  text-align: justify;
+  padding-bottom: 80px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: #666669;
+}
+a:active {
+  color: #28AFB0;
+}
+h1 {
+  padding: 100px 0px;
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
+summary {
+  font-size: 30px;
+}
+img {
+  border: 4px solid #28AFB0;
+}
+details details:hover {
+  color: #28AFB0;
+}
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: #DCDCDC;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 4px solid #28AFB0;
+  position: static;
+}
+.menu p {
+  padding-right: 20px;
+  font-size: 20px;
+}
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: #28AFB0;
+}
+.heroText {
+  color: #666669;
+  text-align: center;
+}
+.heroText h3 {
+  padding: 0px 300px;
+}
+.indexContent {
+  padding: 20px 100px;
+}
+.indexContent div {
+  display: flex;
+  align-items: center;
+}
+.indexContent img {
+  width: 300px;
+  height: 200px;
+}
+.contentLeft {
+  display: flex;
+  justify-content: flex-end;
+}
+.contentLine {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+}
+.contentText {
+  padding: 0px 29px;
+  color: #666669;
+  width: 100%;
+}
+.contentText h2, details {
+  text-align: center;
+}
+.resources {
+  text-align: center;
+}
+.resources p {
+  padding-bottom: 5px;
+}
+.resources a:hover {
+  text-decoration: underline;
+  text-decoration-color: #28AFB0;
+}
+.history {
+  display: flex;
+  justify-content: center;
+  padding: 0% 15%;
+}
+.history img {
+  height: 300px;
+}
+.largerSummary {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0px;
+}
+.largerSummary:hover {
+  color: #28AFB0;
+}
+.infoText {
+  padding: 0px 10px;
+}
+.extraTopPadding {
+  padding-top: 20px;
+}
